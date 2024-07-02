@@ -1,25 +1,32 @@
 
 import './App.css';
-import Portfolio from './prtfolio';
-import Navbar from './NavBar';
-import Footer from './Footer';
-import About from './About';
+import { BrowserRouter as Router, Route, Routes , Navigate } from 'react-router-dom';
+import Home from './Home'
+import ArbicPage from './ArabicPage'
+import { LanguageProvider } from './LanguageContext';
+
+
+
 
 
 
 function App() {
   return (
     <div className="App">
+<LanguageProvider>
+<Router>
+<Routes>
+        
 
-      <Navbar/>
-      <About />
-      
-    <Portfolio/>
+<Route path="/ar" element={<ArbicPage />} />
+          <Route path="/en" element={<Home />} />
+          <Route path="/" element={<Navigate replace to="/ar" />} />
+        </Routes>
+    </Router>
+    </LanguageProvider>
     
-    
-   <footer>
-    <Footer/>
-    </footer>
+
+     
      
     </div>
   );

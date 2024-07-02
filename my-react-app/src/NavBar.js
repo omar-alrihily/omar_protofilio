@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import logo from './icons/LOGO.png'
+
 
 const NavBar = () => {
   return (
@@ -29,6 +31,10 @@ const NavBar = () => {
             </li>
             <li>
               <a href="#projects" className="hover:text-yellow-500">Projects</a>
+            </li>
+
+            <li>
+            <Link to="/ar">Switch to Arabic</Link>
             </li>
             
           </ul>

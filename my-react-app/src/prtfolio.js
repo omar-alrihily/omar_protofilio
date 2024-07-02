@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gray-700">
   <section id="projects" className="mb-8 ">
-  <h2 className="text-4xl font-bold mb-8 text-white ml-16 mt-4 relative">
+  <h2 className="text-4xl font-bold mb-8 text-white ml-20 mt-4 relative">
          Projects
         <span className="absolute top-10 left-0 h-1 w-32 bg-yellow-500"></span>
          </h2>
