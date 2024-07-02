@@ -11,7 +11,7 @@ function ArProfile() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gray-700">
       <section id="projects" className="mb-8 ">
-        <h2 className="text-4xl font-bold mb-8 text-white ml-16 mt-4 mr-20 relative">
+        <h2 className="text-4xl font-bold mb-8 text-white ml-16 mt-4 mr-3 relative">
           المشاريع
           <span className="absolute top-12 right-0 h-1 w-32 bg-yellow-500"></span>
         </h2>

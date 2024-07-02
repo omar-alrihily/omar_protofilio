@@ -11,12 +11,12 @@ const ArAbout = () => {
   return (
     <section id="about" className="bg-gray-800 py-12 text-gray-300 ">
       <div className="container mx-auto px-4 ">
-        <h2 className="text-4xl font-bold mb-8 text-white relative">
-          عني
+        <h2 className="text-4xl font-bold mb-8 text-white relative ">
+                  عني       
           <motion.img
               src={programmingLogo}
               alt="شعار البرمجة"
-              className="w-12 h-12 absolute top-0 right-40" // Adjust width, height, and positioning
+              className="w-12 h-12 absolute top-0 right-24" // Adjust width, height, and positioning
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             />
